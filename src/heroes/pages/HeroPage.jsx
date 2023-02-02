@@ -20,7 +20,7 @@ export const HeroPage = () => {
     <>
       <section className="row mt-5 animate__animated animate__fadeInLeft">
         <section className="col-4">
-          <img src={`/assets/heroes/${id}.jpg`} alt={hero.superhero} className="img-thumbnail" />
+          <img src={`/heroes/${id}.jpg`} alt={hero.superhero} className="img-thumbnail" />
         </section>
         <section className="col-8">
           <h1>{hero.superhero}</h1>
